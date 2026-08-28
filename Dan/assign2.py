@@ -3,15 +3,18 @@ import statistics as stats
 import numpy as np
 import scipy.stats as st
 import math
+import matplotlib.pyplot as plt
+from pathlib import Path
 
-# Read the datasets
+data_folder = Path(__file__).resolve().parent
+
 goalkeeper_data = pd.read_csv(
-    r"C:\Users\User\Documents\VSCODE_DEMO\Data science\fifa_goalkeeper_statistics.csv",
+    data_folder / "fifa_goalkeeper_statistics.csv",
     encoding="utf-8-sig"
 )
 
 match_counts = pd.read_csv(
-    r"C:\Users\User\Documents\VSCODE_DEMO\Data science\fifa_2026_team_match_counts.csv",
+    data_folder / "fifa_2026_team_match_counts.csv",
     encoding="utf-8-sig"
 )
 
@@ -311,3 +314,204 @@ else:
         "of a difference in mean goalkeeper saves per "
         "match between European and Non-European teams."
     )
+# # Use all teams, not the 30-team sample
+# all_team_saves = fifa_data["Saves_per_match"].dropna()
+
+# # Create bins with a width of 0.5 saves per match
+# bins = np.arange(
+#     np.floor(all_team_saves.min()),
+#     np.ceil(all_team_saves.max()) + 0.5,
+#     0.5
+# )
+
+# plt.figure(figsize=(10, 6))
+
+# plt.hist(
+#     all_team_saves,
+#     bins=bins,
+#     color="royalblue",
+#     edgecolor="black",
+#     alpha=0.85
+# )
+
+# plt.title(
+#     "Frequency Distribution of Goalkeeper Saves per Match",
+#     fontsize=14
+# )
+# plt.xlabel("Goalkeeper Saves per Match", fontsize=12)
+# plt.ylabel("Number of Teams", fontsize=12)
+
+# plt.xticks(bins)
+# plt.grid(axis="y", linestyle="--", alpha=0.4)
+# plt.tight_layout()
+
+# # Save the chart
+# plt.savefig(
+#     "goalkeeper_saves_frequency.png",
+#     dpi=300,
+#     bbox_inches="tight"
+# )
+
+# plt.show()
+# Select data from the 30-team sample
+# european_saves = sample_data.loc[
+#     sample_data["Region"] == "European",
+#     "Saves_per_match"
+# ].dropna()
+
+# non_european_saves = sample_data.loc[
+#     sample_data["Region"] == "Non-European",
+#     "Saves_per_match"
+# ].dropna()
+
+# # Use the same intervals for both groups
+# all_sample_saves = sample_data["Saves_per_match"].dropna()
+
+# bins = np.arange(
+#     np.floor(all_sample_saves.min()),
+#     np.ceil(all_sample_saves.max()) + 0.5,
+#     0.5
+# )
+
+# plt.figure(figsize=(10, 6))
+
+# # Side-by-side frequency bars
+# plt.hist(
+#     [european_saves, non_european_saves],
+#     bins=bins,
+#     label=[
+#         f"European (n={len(european_saves)})",
+#         f"Non-European (n={len(non_european_saves)})"
+#     ],
+#     color=["royalblue", "orange"],
+#     edgecolor="black",
+#     alpha=0.8
+# )
+
+# plt.title(
+#     "Distribution of Goalkeeper Saves per Match by Region",
+#     fontsize=14
+# )
+# plt.xlabel("Goalkeeper Saves per Match", fontsize=12)
+# plt.ylabel("Number of Teams", fontsize=12)
+
+# plt.xticks(bins)
+# plt.legend()
+# plt.grid(axis="y", linestyle="--", alpha=0.4)
+# plt.tight_layout()
+
+# plt.savefig(
+#     "saves_per_match_by_region.png",
+#     dpi=300,
+#     bbox_inches="tight"
+# )
+
+# plt.show()
+
+# Chart Mean goalkeeper saves per match by region
+european_saves = sample_data.loc[
+    sample_data["Region"] == "European",
+    "Saves_per_match"
+].dropna().to_numpy()
+
+non_european_saves = sample_data.loc[
+    sample_data["Region"] == "Non-European",
+    "Saves_per_match"
+].dropna().to_numpy()
+
+# Group information
+groups = ["European\n(n=10)", "Non-European\n(n=20)"]
+samples = [european_saves, non_european_saves]
+
+# Calculate means
+means = [np.mean(group) for group in samples]
+
+# Calculate 95% confidence-interval margins
+confidence_level = 0.95
+alpha = 1 - confidence_level
+
+ci_margins = []
+
+for group in samples:
+    n_group = len(group)
+    standard_error = st.sem(group)
+    t_critical = st.t.ppf(
+        1 - alpha / 2,
+        df=n_group - 1
+    )
+
+    ci_margins.append(t_critical * standard_error)
+
+# Perform Welch's two-sample t-test
+t_stat, p_value = st.ttest_ind(
+    european_saves,
+    non_european_saves,
+    equal_var=False,
+    alternative="two-sided"
+)
+
+# Create the bar chart
+fig, ax = plt.subplots(figsize=(8, 6))
+
+bars = ax.bar(
+    groups,
+    means,
+    yerr=ci_margins,
+    capsize=8,
+    color=["royalblue", "orange"],
+    edgecolor="black",
+    alpha=0.85
+)
+
+# Display mean above each bar
+for bar, mean in zip(bars, means):
+    ax.text(
+        bar.get_x() + bar.get_width() / 2,
+        bar.get_height() + 0.08,
+        f"{mean:.2f}",
+        ha="center",
+        va="bottom",
+        fontsize=11,
+        fontweight="bold"
+    )
+
+# Display Welch-test result
+result = (
+    "Statistically significant"
+    if p_value < 0.05
+    else "Not statistically significant"
+)
+
+ax.text(
+    0.5,
+    0.96,
+    f"Welch's t-test: t = {t_stat:.2f}, "
+    f"p = {p_value:.4f}\n{result}",
+    transform=ax.transAxes,
+    ha="center",
+    va="top",
+    fontsize=11,
+    bbox={
+        "boxstyle": "round",
+        "facecolor": "white",
+        "edgecolor": "grey"
+    }
+)
+
+ax.set_title(
+    "Mean Goalkeeper Saves per Match by Region",
+    fontsize=14
+)
+ax.set_xlabel("Region", fontsize=12)
+ax.set_ylabel("Mean Saves per Match", fontsize=12)
+ax.grid(axis="y", linestyle="--", alpha=0.4)
+
+plt.tight_layout()
+
+plt.savefig(
+    "mean_saves_welch_test.png",
+    dpi=300,
+    bbox_inches="tight"
+)
+
+plt.show()
