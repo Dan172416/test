@@ -1,0 +1,209 @@
+match_id,date,team,opponent,possession,goals
+3c1e3816,"June 11, 2026","Mexico","South Africa",61,2
+3c1e3816,"June 11, 2026","South Africa","Mexico",40,0
+beebb792,"June 11, 2026","Korea Republic","Czechia",62,2
+beebb792,"June 11, 2026","Czechia","Korea Republic",38,1
+f6d2bd84,"June 12, 2026","Canada","Bosnia and Herzegovina",61,1
+f6d2bd84,"June 12, 2026","Bosnia and Herzegovina","Canada",39,1
+f6c0596c,"June 12, 2026","United States","Paraguay",65,4
+f6c0596c,"June 12, 2026","Paraguay","United States",35,1
+58580af9,"June 13, 2026","Qatar","Switzerland",32,1
+58580af9,"June 13, 2026","Switzerland","Qatar",68,1
+72d993fd,"June 13, 2026","Brazil","Morocco",51,1
+72d993fd,"June 13, 2026","Morocco","Brazil",49,1
+4ff2342a,"June 13, 2026","Australia","Türkiye",28,2
+4ff2342a,"June 13, 2026","Türkiye","Australia",72,0
+58c3106f,"June 13, 2026","Haiti","Scotland",54,0
+58c3106f,"June 13, 2026","Scotland","Haiti",46,1
+a2c54ed9,"June 14, 2026","Germany","Curaçao",65,7
+a2c54ed9,"June 14, 2026","Curaçao","Germany",35,1
+faa0cb98,"June 14, 2026","Netherlands","Japan",60,2
+faa0cb98,"June 14, 2026","Japan","Netherlands",40,2
+f8ee7eef,"June 14, 2026","Côte d'Ivoire","Ecuador",48,1
+f8ee7eef,"June 14, 2026","Ecuador","Côte d'Ivoire",52,0
+6df52cfd,"June 14, 2026","Sweden","Tunisia",49,5
+6df52cfd,"June 14, 2026","Tunisia","Sweden",51,1
+5f18a385,"June 15, 2026","Belgium","Egypt",54,1
+5f18a385,"June 15, 2026","Egypt","Belgium",46,1
+c100284d,"June 15, 2026","Spain","Cabo Verde",74,0
+c100284d,"June 15, 2026","Cabo Verde","Spain",26,0
+82de5964,"June 15, 2026","Saudi Arabia","Uruguay",33,1
+82de5964,"June 15, 2026","Uruguay","Saudi Arabia",67,1
+a039dc32,"June 15, 2026","IR Iran","New Zealand",48,2
+a039dc32,"June 15, 2026","New Zealand","IR Iran",52,2
+2712fac7,"June 16, 2026","France","Senegal",54,3
+2712fac7,"June 16, 2026","Senegal","France",46,1
+17eda16a,"June 16, 2026","Iraq","Norway",39,1
+17eda16a,"June 16, 2026","Norway","Iraq",61,4
+881ab666,"June 16, 2026","Argentina","Algeria",48,3
+881ab666,"June 16, 2026","Algeria","Argentina",52,0
+140e19d9,"June 16, 2026","Austria","Jordan",63,3
+140e19d9,"June 16, 2026","Jordan","Austria",37,1
+c95830e9,"June 17, 2026","Portugal","Congo DR",75,1
+c95830e9,"June 17, 2026","Congo DR","Portugal",25,1
+c42ce3be,"June 17, 2026","England","Croatia",52,4
+c42ce3be,"June 17, 2026","Croatia","England",48,2
+9f71086a,"June 17, 2026","Ghana","Panama",38,1
+9f71086a,"June 17, 2026","Panama","Ghana",62,0
+3329959e,"June 17, 2026","Uzbekistan","Colombia",39,1
+3329959e,"June 17, 2026","Colombia","Uzbekistan",62,3
+02f675d6,"June 18, 2026","Czechia","South Africa",38,1
+02f675d6,"June 18, 2026","South Africa","Czechia",62,1
+5134daab,"June 18, 2026","Switzerland","Bosnia and Herzegovina",62,4
+5134daab,"June 18, 2026","Bosnia and Herzegovina","Switzerland",38,1
+60dedabb,"June 18, 2026","Canada","Qatar",79,6
+60dedabb,"June 18, 2026","Qatar","Canada",21,0
+50a429da,"June 18, 2026","Mexico","Korea Republic",42,1
+50a429da,"June 18, 2026","Korea Republic","Mexico",58,0
+580cb771,"June 19, 2026","United States","Australia",62,2
+580cb771,"June 19, 2026","Australia","United States",38,0
+2a469714,"June 19, 2026","Scotland","Morocco",41,0
+2a469714,"June 19, 2026","Morocco","Scotland",59,1
+82209c60,"June 19, 2026","Türkiye","Paraguay",79,0
+82209c60,"June 19, 2026","Paraguay","Türkiye",22,1
+48cce92a,"June 19, 2026","Brazil","Haiti",57,3
+48cce92a,"June 19, 2026","Haiti","Brazil",43,0
+816f4180,"June 20, 2026","Netherlands","Sweden",51,5
+816f4180,"June 20, 2026","Sweden","Netherlands",49,1
+43fec9f3,"June 20, 2026","Germany","Côte d'Ivoire",59,2
+43fec9f3,"June 20, 2026","Côte d'Ivoire","Germany",41,1
+ca7eecdb,"June 20, 2026","Ecuador","Curaçao",75,0
+ca7eecdb,"June 20, 2026","Curaçao","Ecuador",25,0
+27695f4a,"June 20, 2026","Tunisia","Japan",38,0
+27695f4a,"June 20, 2026","Japan","Tunisia",62,4
+0fcac1d8,"June 21, 2026","Spain","Saudi Arabia",67,4
+0fcac1d8,"June 21, 2026","Saudi Arabia","Spain",33,0
+c96f559b,"June 21, 2026","Belgium","IR Iran",70,0
+c96f559b,"June 21, 2026","IR Iran","Belgium",30,0
+bc0e570b,"June 21, 2026","Uruguay","Cabo Verde",65,2
+bc0e570b,"June 21, 2026","Cabo Verde","Uruguay",35,2
+d5699a16,"June 21, 2026","New Zealand","Egypt",44,1
+d5699a16,"June 21, 2026","Egypt","New Zealand",56,3
+e7d8a062,"June 22, 2026","Argentina","Austria",54,2
+e7d8a062,"June 22, 2026","Austria","Argentina",46,0
+31f1f241,"June 22, 2026","France","Iraq",56,3
+31f1f241,"June 22, 2026","Iraq","France",45,0
+7382111b,"June 22, 2026","Norway","Senegal",42,3
+7382111b,"June 22, 2026","Senegal","Norway",58,2
+eb19002c,"June 22, 2026","Jordan","Algeria",28,1
+eb19002c,"June 22, 2026","Algeria","Jordan",72,2
+904bbbdc,"June 23, 2026","Portugal","Uzbekistan",66,5
+904bbbdc,"June 23, 2026","Uzbekistan","Portugal",34,0
+3dac8725,"June 23, 2026","England","Ghana",79,0
+3dac8725,"June 23, 2026","Ghana","England",21,0
+28a6d770,"June 23, 2026","Panama","Croatia",42,0
+28a6d770,"June 23, 2026","Croatia","Panama",58,1
+f2e8741b,"June 23, 2026","Colombia","Congo DR",64,1
+f2e8741b,"June 23, 2026","Congo DR","Colombia",37,0
+199a57aa,"June 24, 2026","Switzerland","Canada",55,2
+199a57aa,"June 24, 2026","Canada","Switzerland",45,1
+a59cb59d,"June 24, 2026","Bosnia and Herzegovina","Qatar",55,3
+a59cb59d,"June 24, 2026","Qatar","Bosnia and Herzegovina",46,1
+0ef71ab6,"June 24, 2026","Scotland","Brazil",46,0
+0ef71ab6,"June 24, 2026","Brazil","Scotland",54,3
+2307866a,"June 24, 2026","Morocco","Haiti",69,4
+2307866a,"June 24, 2026","Haiti","Morocco",31,2
+311661a5,"June 24, 2026","South Africa","Korea Republic",32,1
+311661a5,"June 24, 2026","Korea Republic","South Africa",69,0
+f26b468c,"June 24, 2026","Czechia","Mexico",52,0
+f26b468c,"June 24, 2026","Mexico","Czechia",48,3
+89835aff,"June 25, 2026","Curaçao","Côte d'Ivoire",37,0
+89835aff,"June 25, 2026","Côte d'Ivoire","Curaçao",63,2
+cc4ebc5b,"June 25, 2026","Ecuador","Germany",39,2
+cc4ebc5b,"June 25, 2026","Germany","Ecuador",61,1
+63b14e23,"June 25, 2026","Tunisia","Netherlands",29,1
+63b14e23,"June 25, 2026","Netherlands","Tunisia",72,3
+994aa701,"June 25, 2026","Japan","Sweden",52,1
+994aa701,"June 25, 2026","Sweden","Japan",48,1
+358fd0fc,"June 25, 2026","Türkiye","United States",48,3
+358fd0fc,"June 25, 2026","United States","Türkiye",53,2
+c8fa19f5,"June 25, 2026","Paraguay","Australia",44,0
+c8fa19f5,"June 25, 2026","Australia","Paraguay",56,0
+1bcdcfc8,"June 26, 2026","Norway","France",43,1
+1bcdcfc8,"June 26, 2026","France","Norway",57,4
+583c1910,"June 26, 2026","Senegal","Iraq",69,5
+583c1910,"June 26, 2026","Iraq","Senegal",31,0
+48dd64d5,"June 26, 2026","Uruguay","Spain",33,0
+48dd64d5,"June 26, 2026","Spain","Uruguay",67,1
+8d6d70b6,"June 26, 2026","Cabo Verde","Saudi Arabia",51,0
+8d6d70b6,"June 26, 2026","Saudi Arabia","Cabo Verde",49,0
+acc93b55,"June 26, 2026","Egypt","IR Iran",61,1
+acc93b55,"June 26, 2026","IR Iran","Egypt",39,1
+f527457d,"June 26, 2026","New Zealand","Belgium",45,1
+f527457d,"June 26, 2026","Belgium","New Zealand",55,5
+a051b2ea,"June 27, 2026","Croatia","Ghana",53,2
+a051b2ea,"June 27, 2026","Ghana","Croatia",47,1
+d7e30dec,"June 27, 2026","Panama","England",33,0
+d7e30dec,"June 27, 2026","England","Panama",67,2
+6287f9c7,"June 27, 2026","Congo DR","Uzbekistan",58,3
+6287f9c7,"June 27, 2026","Uzbekistan","Congo DR",42,1
+ded93e98,"June 27, 2026","Colombia","Portugal",55,0
+ded93e98,"June 27, 2026","Portugal","Colombia",45,0
+5ec98037,"June 27, 2026","Jordan","Argentina",27,1
+5ec98037,"June 27, 2026","Argentina","Jordan",73,3
+79a8f8c8,"June 27, 2026","Algeria","Austria",65,3
+79a8f8c8,"June 27, 2026","Austria","Algeria",35,3
+c4104726,"June 28, 2026","South Africa","Canada",58,0
+c4104726,"June 28, 2026","Canada","South Africa",42,1
+58289f35,"June 29, 2026","Brazil","Japan",69,2
+58289f35,"June 29, 2026","Japan","Brazil",31,1
+89da405b,"June 29, 2026","Germany","Paraguay",75,1
+89da405b,"June 29, 2026","Paraguay","Germany",25,1
+bebca560,"June 29, 2026","Netherlands","Morocco",30,1
+bebca560,"June 29, 2026","Morocco","Netherlands",70,1
+d280258e,"June 30, 2026","Côte d'Ivoire","Norway",47,1
+d280258e,"June 30, 2026","Norway","Côte d'Ivoire",53,2
+da47849b,"June 30, 2026","France","Sweden",61,3
+da47849b,"June 30, 2026","Sweden","France",39,0
+5eca3d3a,"June 30, 2026","Mexico","Ecuador",43,2
+5eca3d3a,"June 30, 2026","Ecuador","Mexico",57,0
+520a5665,"July 1, 2026","England","Congo DR",60,2
+520a5665,"July 1, 2026","Congo DR","England",40,1
+cf968279,"July 1, 2026","Belgium","Senegal",52,3
+cf968279,"July 1, 2026","Senegal","Belgium",48,2
+89aea7f3,"July 1, 2026","United States","Bosnia and Herzegovina",48,2
+89aea7f3,"July 1, 2026","Bosnia and Herzegovina","United States",52,0
+288fba4d,"July 2, 2026","Spain","Austria",65,3
+288fba4d,"July 2, 2026","Austria","Spain",36,0
+87717b95,"July 2, 2026","Portugal","Croatia",61,2
+87717b95,"July 2, 2026","Croatia","Portugal",40,1
+b2f307a9,"July 2, 2026","Switzerland","Algeria",45,2
+b2f307a9,"July 2, 2026","Algeria","Switzerland",55,0
+3ccca695,"July 3, 2026","Australia","Egypt",42,1
+3ccca695,"July 3, 2026","Egypt","Australia",58,1
+675b328b,"July 3, 2026","Argentina","Cabo Verde",64,3
+675b328b,"July 3, 2026","Cabo Verde","Argentina",37,2
+d4ac0040,"July 3, 2026","Colombia","Ghana",61,1
+d4ac0040,"July 3, 2026","Ghana","Colombia",39,0
+b709bfa1,"July 4, 2026","Canada","Morocco",45,0
+b709bfa1,"July 4, 2026","Morocco","Canada",55,3
+8ad9833e,"July 4, 2026","Paraguay","France",24,0
+8ad9833e,"July 4, 2026","France","Paraguay",76,1
+dabafdc1,"July 5, 2026","Brazil","Norway",34,1
+dabafdc1,"July 5, 2026","Norway","Brazil",66,2
+3ed2ad56,"July 5, 2026","Mexico","England",67,2
+3ed2ad56,"July 5, 2026","England","Mexico",33,3
+fe9daeb3,"July 6, 2026","Portugal","Spain",45,0
+fe9daeb3,"July 6, 2026","Spain","Portugal",56,1
+ac3ca9ea,"July 6, 2026","United States","Belgium",56,1
+ac3ca9ea,"July 6, 2026","Belgium","United States",44,4
+99ef3f64,"July 7, 2026","Argentina","Egypt",64,3
+99ef3f64,"July 7, 2026","Egypt","Argentina",36,2
+fb7171eb,"July 7, 2026","Switzerland","Colombia",53,0
+fb7171eb,"July 7, 2026","Colombia","Switzerland",47,0
+c069f408,"July 9, 2026","France","Morocco",48,2
+c069f408,"July 9, 2026","Morocco","France",52,0
+ed14068b,"July 10, 2026","Spain","Belgium",68,2
+ed14068b,"July 10, 2026","Belgium","Spain",32,1
+4a03a810,"July 11, 2026","Norway","England",48,1
+4a03a810,"July 11, 2026","England","Norway",52,2
+3ae43552,"July 11, 2026","Argentina","Switzerland",59,3
+3ae43552,"July 11, 2026","Switzerland","Argentina",41,1
+9575513b,"July 14, 2026","France","Spain",49,0
+9575513b,"July 14, 2026","Spain","France",51,2
+47dbfe60,"July 15, 2026","England","Argentina",36,1
+47dbfe60,"July 15, 2026","Argentina","England",64,2
+aba06a2a,"July 18, 2026","France","England",46,4
+aba06a2a,"July 18, 2026","England","France",54,6
+bedbfe84,"July 19, 2026","Spain","Argentina",65,1
+bedbfe84,"July 19, 2026","Argentina","Spain",35,0
