@@ -1,12 +1,11 @@
 import pandas as pd
 
-
 # TASK 4  (Higher/lower Possession )
 
 # 1. EXTRACT RAW DATA
 
 
-df = pd.read_csv("data/worldcup2026_raw.csv")
+df = pd.read_csv("worldcup2026_raw.csv")
 
 print("--RAW DATA--")
 print("\nShape:")
@@ -183,12 +182,12 @@ print(
 
 # 9. SAVE CLEAN POPULATION
 analysis_population.to_csv(
-    "outputs/worldcup2026_clean_population.csv",
+    "worldcup2026_clean_population.csv",
     index=False
 )
 
 print("\nClean population saved to:")
-print("outputs/worldcup2026_clean_population.csv")
+print("worldcup2026_clean_population.csv")
 
 
 # 10. RANDOM SAMPLING done within match instead of individual team observations.
@@ -228,7 +227,7 @@ print(sample["possession_group"].value_counts())
 
 # Save sample
 sample.to_csv(
-    "outputs/worldcup2026_sample.csv",
+    "worldcup2026_sample.csv",
     index=False
 )
 
@@ -425,7 +424,7 @@ else:
 
 # Save match-level differences
 match_goals.to_csv(
-    "outputs/within_match_goal_differences.csv"
+    "within_match_goal_differences.csv"
 )
 
 
@@ -464,7 +463,7 @@ plt.xticks(rotation=0)
 plt.tight_layout()
 
 plt.savefig(
-    "outputs/mean_goals_by_possession.png",
+    "mean_goals_by_possession.png",
     dpi=300
 )
 
@@ -475,26 +474,26 @@ plt.show()
 # 16. SAVE DESCRIPTIVE STATISTICS
 
 descriptive.to_csv(
-    "outputs/descriptive_statistics.csv"
+    "descriptive_statistics.csv"
 )
-
+plt.show()
 
 print("--ANALYSIS COMPLETE--")
 
 print("\nFiles created:")
 
 print(
-    "outputs/worldcup2026_clean_population.csv"
+    "worldcup2026_clean_population.csv"
 )
 
 print(
-    "outputs/worldcup2026_sample.csv"
+    "worldcup2026_sample.csv"
 )
 
 print(
-    "outputs/descriptive_statistics.csv"
+    "descriptive_statistics.csv"
 )
 
 print(
-    "outputs/mean_goals_by_possession.png"
+    "mean_goals_by_possession.png"
 )
