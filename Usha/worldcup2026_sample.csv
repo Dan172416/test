@@ -1,0 +1,61 @@
+match_id,date,team,opponent,possession,goals,possession_group
+3c1e3816,"June 11, 2026",Mexico,South Africa,61,2,Higher
+3c1e3816,"June 11, 2026",South Africa,Mexico,40,0,Lower
+58580af9,"June 13, 2026",Qatar,Switzerland,32,1,Lower
+58580af9,"June 13, 2026",Switzerland,Qatar,68,1,Higher
+faa0cb98,"June 14, 2026",Netherlands,Japan,60,2,Higher
+faa0cb98,"June 14, 2026",Japan,Netherlands,40,2,Lower
+f8ee7eef,"June 14, 2026",Côte d'Ivoire,Ecuador,48,1,Lower
+f8ee7eef,"June 14, 2026",Ecuador,Côte d'Ivoire,52,0,Higher
+5f18a385,"June 15, 2026",Belgium,Egypt,54,1,Higher
+5f18a385,"June 15, 2026",Egypt,Belgium,46,1,Lower
+a039dc32,"June 15, 2026",IR Iran,New Zealand,48,2,Lower
+a039dc32,"June 15, 2026",New Zealand,IR Iran,52,2,Higher
+881ab666,"June 16, 2026",Argentina,Algeria,48,3,Lower
+881ab666,"June 16, 2026",Algeria,Argentina,52,0,Higher
+9f71086a,"June 17, 2026",Ghana,Panama,38,1,Lower
+9f71086a,"June 17, 2026",Panama,Ghana,62,0,Higher
+60dedabb,"June 18, 2026",Canada,Qatar,79,6,Higher
+60dedabb,"June 18, 2026",Qatar,Canada,21,0,Lower
+82209c60,"June 19, 2026",Türkiye,Paraguay,79,0,Higher
+82209c60,"June 19, 2026",Paraguay,Türkiye,22,1,Lower
+48cce92a,"June 19, 2026",Brazil,Haiti,57,3,Higher
+48cce92a,"June 19, 2026",Haiti,Brazil,43,0,Lower
+43fec9f3,"June 20, 2026",Germany,Côte d'Ivoire,59,2,Higher
+43fec9f3,"June 20, 2026",Côte d'Ivoire,Germany,41,1,Lower
+e7d8a062,"June 22, 2026",Argentina,Austria,54,2,Higher
+e7d8a062,"June 22, 2026",Austria,Argentina,46,0,Lower
+7382111b,"June 22, 2026",Norway,Senegal,42,3,Lower
+7382111b,"June 22, 2026",Senegal,Norway,58,2,Higher
+904bbbdc,"June 23, 2026",Portugal,Uzbekistan,66,5,Higher
+904bbbdc,"June 23, 2026",Uzbekistan,Portugal,34,0,Lower
+3dac8725,"June 23, 2026",England,Ghana,79,0,Higher
+3dac8725,"June 23, 2026",Ghana,England,21,0,Lower
+f2e8741b,"June 23, 2026",Colombia,Congo DR,64,1,Higher
+f2e8741b,"June 23, 2026",Congo DR,Colombia,37,0,Lower
+f26b468c,"June 24, 2026",Czechia,Mexico,52,0,Higher
+f26b468c,"June 24, 2026",Mexico,Czechia,48,3,Lower
+cc4ebc5b,"June 25, 2026",Ecuador,Germany,39,2,Lower
+cc4ebc5b,"June 25, 2026",Germany,Ecuador,61,1,Higher
+acc93b55,"June 26, 2026",Egypt,IR Iran,61,1,Higher
+acc93b55,"June 26, 2026",IR Iran,Egypt,39,1,Lower
+f527457d,"June 26, 2026",New Zealand,Belgium,45,1,Lower
+f527457d,"June 26, 2026",Belgium,New Zealand,55,5,Higher
+c4104726,"June 28, 2026",South Africa,Canada,58,0,Higher
+c4104726,"June 28, 2026",Canada,South Africa,42,1,Lower
+d280258e,"June 30, 2026",Côte d'Ivoire,Norway,47,1,Lower
+d280258e,"June 30, 2026",Norway,Côte d'Ivoire,53,2,Higher
+da47849b,"June 30, 2026",France,Sweden,61,3,Higher
+da47849b,"June 30, 2026",Sweden,France,39,0,Lower
+cf968279,"July 1, 2026",Belgium,Senegal,52,3,Higher
+cf968279,"July 1, 2026",Senegal,Belgium,48,2,Lower
+b709bfa1,"July 4, 2026",Canada,Morocco,45,0,Lower
+b709bfa1,"July 4, 2026",Morocco,Canada,55,3,Higher
+3ed2ad56,"July 5, 2026",Mexico,England,67,2,Higher
+3ed2ad56,"July 5, 2026",England,Mexico,33,3,Lower
+ac3ca9ea,"July 6, 2026",United States,Belgium,56,1,Higher
+ac3ca9ea,"July 6, 2026",Belgium,United States,44,4,Lower
+fb7171eb,"July 7, 2026",Switzerland,Colombia,53,0,Higher
+fb7171eb,"July 7, 2026",Colombia,Switzerland,47,0,Lower
+4a03a810,"July 11, 2026",Norway,England,48,1,Lower
+4a03a810,"July 11, 2026",England,Norway,52,2,Higher
